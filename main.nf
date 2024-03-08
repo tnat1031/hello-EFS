@@ -7,6 +7,7 @@ process sayHello {
     stdout
   script:
     """
+		ls /efs
     echo '$x world!'
     """
 }
